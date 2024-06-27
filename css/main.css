@@ -29,9 +29,16 @@ textarea:focus {
   border: none;
 }
 /* start header ------- */
-.header .logo img {
-  width: 150px;
+.header .logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--main-color);
+  font-family: system-ui;
 }
+.header .logo span {
+  color: #f19b0c;
+}
+/* ffa300 */
 .header .list li a {
   color: #535353;
   font-size: 18px;
@@ -83,7 +90,7 @@ textarea:focus {
   align-items: center;
 }
 .main-section .title h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   font-family: myfont, B Nazanin, Tahoma !important;
 }
@@ -114,9 +121,8 @@ textarea:focus {
 /* start about-us -------- */
 .about-us .desc h3 {
   color: var(--main-color);
-  font-size: 61.84px;
+  font-size: 50px;
   font-weight: 700;
-  line-height: 69.57px;
 }
 .about-us .desc ul li {
   margin-bottom: 10px;
@@ -129,8 +135,10 @@ textarea:focus {
 .about-us .desc ul strong {
   color: #131379;
 }
-.about-us .desc ul li span {
+.about-us .desc ul li p {
   font-weight: 600;
+  font-size: 20px;
+  margin: 0;
 }
 @media (max-width: 991px) {
   .home-orders {
