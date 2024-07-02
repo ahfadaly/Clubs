@@ -79,7 +79,7 @@ textarea:focus {
 /* start main-section ---- */
 .main-section {
   background-image: url(../images/bg-main-section.png);
-  height: 700px;
+  height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -116,6 +116,11 @@ textarea:focus {
     position: static !important;
   }
 }
+/* @media (min-width: 992px) {
+  .main-section {
+    height: 900px;
+  }
+} */
 /* end main-section ---- */
 
 /* start about-us -------- */
