@@ -131,20 +131,19 @@ textarea:focus {
 }
 .about-us .desc ul li {
   margin-bottom: 10px;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 40px;
   list-style: square;
+}
+.about-us .desc ul li span {
+  font-size: 18px;
 }
 .about-us .desc ul li::marker,
 .about-us .desc ul strong {
   color: #131379;
 }
-.about-us .desc ul li p {
-  font-weight: 600;
-  font-size: 20px;
-  margin: 0;
-}
+
 @media (max-width: 991px) {
   .home-orders {
     height: auto !important;
@@ -182,6 +181,13 @@ textarea:focus {
   font-size: 20px;
   font-weight: 500;
   line-height: 34.36px;
+}
+.home-orders .desc ul li {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 40px;
+  list-style: square;
 }
 /* end home-orders ------ */
 
