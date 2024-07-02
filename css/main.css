@@ -173,18 +173,10 @@ textarea:focus {
   font-size: 40px;
   font-family: myfont;
 }
-.home-orders .desc ul li {
-  margin-bottom: 10px;
-  font-size: 22px;
-  line-height: 40px;
-  list-style: square;
-}
-.home-orders .desc ul li span {
-  font-weight: normal;
-}
-.home-orders .desc ul li::marker,
-.home-orders .desc ul strong {
-  color: #ffff;
+.home-orders .desc p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34.36px;
 }
 /* end home-orders ------ */
 
