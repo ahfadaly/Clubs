@@ -328,7 +328,7 @@ textarea:focus {
 
 /* start subscription */
 .subscription .image-wrapper {
-  background-image: url(../images/subscription.png);
+  background: linear-gradient(0deg, #96969a, #4c4c83, #2a2a6f);
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -338,6 +338,18 @@ textarea:focus {
   -moz-border-radius: 0 30px 30px 0;
   -ms-border-radius: 0 30px 30px 0;
   -o-border-radius: 0 30px 30px 0;
+  position: relative;
+}
+.subscription .image-wrapper .desc {
+  position: absolute;
+  top: 40%;
+  color: #fff;
+  font-size: 40px;
+  right: 20px;
+  left: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: myfont;
 }
 .subscription .formdiv {
   background-color: var(--main-color);
@@ -361,6 +373,9 @@ textarea:focus {
     -moz-border-radius: 0 0 30px 30px;
     -ms-border-radius: 0 0 30px 30px;
     -o-border-radius: 0 0 30px 30px;
+  }
+  .subscription .image-wrapper .desc {
+    font-size: 30px;
   }
 }
 .subscription .formdiv form label {
