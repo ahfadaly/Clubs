@@ -210,6 +210,9 @@ textarea:focus {
   right: 0;
   z-index: -1;
 }
+.steps-urpass .card-desc .desc h4 {
+  left: 0;
+}
 .steps-urpass .card-item .desc h3 {
   color: var(--main-color);
   font-size: 40px;
@@ -261,7 +264,14 @@ textarea:focus {
   top: 23%;
   left: -28%;
 }
-.progressBarItem .item .line span {
+.progressBarItem .item .line-2 {
+  position: absolute;
+  top: 23%;
+  right: -28%;
+}
+
+.progressBarItem .item .line span,
+.progressBarItem .item .line-2 span {
   background-color: #0000004d;
   width: 35px;
   height: 2.5px;
@@ -278,7 +288,8 @@ textarea:focus {
   .progressBarItem .item p {
     font-size: 20px;
   }
-  .progressBarItem .item .line {
+  .progressBarItem .item .line,
+  .progressBarItem .item .line-2 {
     display: none !important;
   }
 }
@@ -339,6 +350,13 @@ textarea:focus {
   -o-border-radius: 0 30px 30px 0;
   position: relative;
 }
+.subscription .image-wrapper-2 {
+  border-radius: 30px 0 0 30px;
+  -webkit-border-radius: 30px 0 0 30px;
+  -moz-border-radius: 30px 0 0 30px;
+  -ms-border-radius: 30px 0 0 30px;
+  -o-border-radius: 30px 0 0 30px;
+}
 .subscription .image-wrapper .desc {
   position: absolute;
   top: 40%;
@@ -350,6 +368,9 @@ textarea:focus {
   font-weight: 600;
   font-family: myfont;
 }
+.subscription .image-wrapper-2 .desc {
+  font-family: sans-serif;
+}
 .subscription .formdiv {
   background-color: var(--main-color);
   border-radius: 30px 0 0 30px;
@@ -357,6 +378,13 @@ textarea:focus {
   -moz-border-radius: 30px 0 0 30px;
   -ms-border-radius: 30px 0 0 30px;
   -o-border-radius: 30px 0 0 30px;
+}
+.subscription .formdiv-2 {
+  border-radius: 0 30px 30px 0;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  -ms-border-radius: 0 30px 30px 0;
+  -o-border-radius: 0 30px 30px 0;
 }
 @media (max-width: 991px) {
   .subscription .image-wrapper {
@@ -435,6 +463,17 @@ textarea:focus {
   position: absolute;
   left: 11px;
 }
+.footer .searchButton-2 {
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #9898f1;
+  border: 0;
+  position: absolute;
+  right: 11px;
+}
+
 .footer li {
   margin-bottom: 12px;
 }
