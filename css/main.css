@@ -533,6 +533,15 @@ textarea:focus {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+@media (max-width: 991px) {
+  .packages .box:hover {
+    transform: inherit;
+    -webkit-transform: inherit;
+    -moz-transform: inherit;
+    -ms-transform: inherit;
+    -o-transform: inherit;
+  }
+}
 .packages .box .clubs img {
   width: 25px;
   height: 25px;
@@ -617,7 +626,17 @@ textarea:focus {
   padding: 5px 20px;
   cursor: pointer;
 }
-
+.packages .box-3 .desc .ltr {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  background-color: #f57920;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 20px;
+  cursor: pointer;
+  display: inline-block;
+}
 .packages .box-3 button {
   background-color: #f57920;
 }
